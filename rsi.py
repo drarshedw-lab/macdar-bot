@@ -17,7 +17,7 @@ os.environ['https_proxy'] = 'http://proxy.server:3128'
 # CONFIGURATION
 # ============================================================
 
-BINANCE_BASE_URL = "https://api.binance.com"
+BINANCE_BASE_URL = "https://data.binance.com"
 BINANCE_WS_URL = "wss://stream.binance.com:9443/stream?streams="
 
 TELEGRAM_BOT_TOKEN = "8759728528:AAEsBF7X6d1wU8VBpD6iqt0c7SVGjU9dqGk"
