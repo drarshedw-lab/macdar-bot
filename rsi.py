@@ -7,6 +7,8 @@ from concurrent.futures import ThreadPoolExecutor
 import requests
 import pandas as pd
 import websocket
+import os
+os.environ['https_proxy'] = 'http://proxy.server:3128'
 
 
 # ============================================================
